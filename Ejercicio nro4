@@ -1,1 +1,40 @@
+import java.util.Scanner;
+
+public class Principal
+{
+public static void main(String[] args)
+{
+    IntnumEnsayos=0;
+    Intnumero;
+    IntnumIntroducido;
+    numero=(int) (Math.ramdon() *1000);
+    Scanner sc;
+    sc=new Scanner (System.in);
+    do
+{
+             numIntroducido=sc.nextInt ();
+             numEnsayos++;
+             if (numIntroducido<numero)
+             {
+                        System.out.println(“es mayor”);
+              }
+              If (numIntroducido>numero)
+              {
+                               System.out.println(“es menor”);  
+                 If (numIntroducido>numero)
+              {
+                                  System.out.println(“es menor”);               
+                                }
+              }
+                }
+    while (numero !=numIntroducido) ;
+    fin=OffsetTime.now() ;
+    tiempo=Duration.between(inicio,fin) ;
+    LocalTime duración;
+    duracion=LocalTime.ofSecondOfDay(tiempo.getSeconds()) ;
+    System.out.println(“¡Bravo! Resultado encontrado en “ + numEnsayos + “ ensayo (s) y “ + duracion.getHour() + “ hora (s) “ +
+duracion.getMinute () + “ minuto (s) 2 +
+    duracion.getSecond() + “ segundo (s) “);
+}
+}
 
